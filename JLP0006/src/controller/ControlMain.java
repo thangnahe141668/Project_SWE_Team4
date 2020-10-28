@@ -86,8 +86,9 @@ public class ControlMain implements DocumentListener {
                             temp = 1;
                             checkCancel = false;
                         }
-                        //check when file opening 
-                    }//if check save true
+                        //check when file opening
+                        // check khi mo file
+                    }//if check save true neu dung
                     else {
                         if (checkNewFile(view.getItSave()) == 3) {
                             return;
@@ -128,6 +129,7 @@ public class ControlMain implements DocumentListener {
                     System.exit(0);
                 } else {
                     //Check when not open the file
+                    //Check khi k mo duoc file
                     if (urlFile.isEmpty() && nameFile.isEmpty()) {
                         if (checksaveExit(view.getItSaveAs()) == 2) {
                             return;
