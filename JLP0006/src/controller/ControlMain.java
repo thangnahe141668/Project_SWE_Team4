@@ -59,6 +59,8 @@ public class ControlMain implements DocumentListener {
     private UndoManager undo = new UndoManager();
     private boolean checkSave = true;
     private boolean checkCancel = false;
+    private String Test;
+    private String SWE;
 
     public ControlMain() {
         view.setTitle("Notepad");
